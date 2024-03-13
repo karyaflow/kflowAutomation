@@ -5,12 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f534444c-1e4c-4d6b-b866-9992f595909a" name="Changes" comment="project structure setup">
-      <change afterPath="$PROJECT_DIR$/src/test/java/resources/testData/testdata.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/CreateProjectPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/RunEvaluationPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/SignInOptionsPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/SupportingDocsPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testCases/CreateProject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testCases/Login.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testCases/RunEvaluation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testCases/ScrollDocument.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testCases/SignInOptions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testCases/SupportingDocs.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testCases/test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/ExtractSpecificColumn.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -19,7 +39,9 @@
   "associatedIndex": 7
 }]]></component>
   <component name="ProjectId" id="2dcX2UVaVft7yGUWP1WczOGd2We" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -29,17 +51,56 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.CreateForm.CreateFormTest.executor": "Run",
+    "TestNG.CreateForm.executor": "Run",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/SaugatDahal/eclipse-workspace/kflowqa/src/test/java",
+    "last_opened_file_path": "C:/Users/SaugatDahal/eclipse-workspace/kflowqa/src/test",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\SaugatDahal\eclipse-workspace\kflowqa\src\test" />
       <recent name="C:\Users\SaugatDahal\eclipse-workspace\kflowqa\src\test\java" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="CreateForm.CreateFormTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="kflowqa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testCases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testCases" />
+      <option name="MAIN_CLASS_NAME" value="testCases.CreateForm" />
+      <option name="METHOD_NAME" value="CreateFormTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.CreateForm.CreateFormTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-1.8.0_402-corretto-1.8.0_402-4caba194b151-ae57be32" />
+        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -58,7 +119,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710309029497</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="project structure setup">
+      <option name="closed" value="true" />
+      <created>1710309079671</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1710309079671</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
